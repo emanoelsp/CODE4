@@ -1,0 +1,57 @@
+CRITICAL - 2023-09-13 00:07:03 --> Class "App\Controllers\FormModel" not found
+in APPPATH\Controllers\Contato.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Contato->salvar()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contato))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-13 00:11:48 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\TesteViews\footer_message.php on line 3.
+ 1 APPPATH\Views\TesteViews\footer_message.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'C:\\wamp64\\www\\APP_CODE4\\app\\Views\\TesteViews\\footer_message.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\APP_CODE4\\app\\Views\\TesteViews\\footer_message.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/TesteViews/footer_message.php', [], true)
+ 5 APPPATH\Controllers\Home.php(10): view('/TesteViews/footer_message.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-13 00:15:26 --> Arquivo inválido: /.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/', [], true)
+ 3 APPPATH\Controllers\Contato.php(32): view('/', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Contato->salvar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contato))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-13 00:17:14 --> Arquivo inválido: /.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/', [], true)
+ 3 APPPATH\Controllers\Contato.php(32): view('/', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Contato->salvar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contato))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-13 00:18:40 --> Arquivo inválido: /.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/', [], true)
+ 3 APPPATH\Controllers\Contato.php(32): view('/', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Contato->salvar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contato))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-13 00:20:23 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #2 ($code) must be of type ?int, array given, called in C:\wamp64\www\APP_CODE4\app\Controllers\Contato.php on line 32
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 32.
+ 1 APPPATH\Controllers\Contato.php(32): CodeIgniter\HTTP\RedirectResponse->to('/', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Contato->salvar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contato))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-13 00:41:37 --> Class "App\Controllers\FormModel" not found
+in APPPATH\Controllers\Contato.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Contato->salvar()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contato))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

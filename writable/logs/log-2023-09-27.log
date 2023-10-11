@@ -1,0 +1,19 @@
+CRITICAL - 2023-09-27 00:49:19 --> Declaration of App\Models\FormModel::delete() must be compatible with CodeIgniter\BaseModel::delete($id = null, bool $purge = false)
+in APPPATH\Models\FormModel.php on line 10.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-27 00:51:56 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2767.
+ 1 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete(null, false)
+ 3 APPPATH\Controllers\Contato.php(54): CodeIgniter\BaseModel->delete(null)
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Contato->deletar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contato))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 00:52:38 --> Undefined variable $mensagem
+in APPPATH\Controllers\Contato.php on line 54.
+ 1 APPPATH\Controllers\Contato.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mensagem', 'C:\\wamp64\\www\\APP_CODE4\\app\\Controllers\\Contato.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Contato->deletar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contato))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

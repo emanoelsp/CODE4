@@ -1,0 +1,51 @@
+CRITICAL - 2023-09-06 14:05:31 --> Call to undefined method App\Controllers\Contato::initController()
+in SYSTEMPATH\CodeIgniter.php on line 905.
+ 1 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 2 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 14:06:11 --> Call to undefined method App\Controllers\Contato::initController()
+in SYSTEMPATH\CodeIgniter.php on line 905.
+ 1 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 2 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 14:29:03 --> Call to undefined method App\Controllers\Contato::initController()
+in SYSTEMPATH\CodeIgniter.php on line 905.
+ 1 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 2 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 14:31:15 --> Invalid file: "contato/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contato/index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('contato/index', [], true)
+ 3 APPPATH\Controllers\Contato.php(28): view('contato/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Contato->save()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contato))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 14:34:01 --> Invalid file: "contato/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contato/index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('contato/index', [], true)
+ 3 APPPATH\Controllers\Contato.php(28): view('contato/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Contato->salvar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contato))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 14:35:02 --> Invalid file: "contato/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contato/index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('contato/index', [], true)
+ 3 APPPATH\Controllers\Contato.php(28): view('contato/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Contato->salvar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contato))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 14:38:24 --> Invalid file: "contato/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contato/index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('contato/index', [], true)
+ 3 APPPATH\Controllers\Contato.php(28): view('contato/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Contato->salvar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contato))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

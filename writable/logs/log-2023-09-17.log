@@ -1,0 +1,251 @@
+CRITICAL - 2023-09-17 22:38:52 --> Undefined variable $data
+in APPPATH\Views\Contato\painel.php on line 13.
+ 1 APPPATH\Views\Contato\painel.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\wamp64\\www\\APP_CODE4\\app\\Views\\Contato\\painel.php', 13)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\APP_CODE4\\app\\Views\\Contato\\painel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Contato/painel.php', [], true)
+ 5 APPPATH\Controllers\Contato.php(35): view('/Contato/painel.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Contato->salvar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contato))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 22:40:59 --> Undefined variable $data
+in APPPATH\Views\Contato\painel.php on line 3.
+ 1 APPPATH\Views\Contato\painel.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\wamp64\\www\\APP_CODE4\\app\\Views\\Contato\\painel.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\APP_CODE4\\app\\Views\\Contato\\painel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Contato/painel.php', [], true)
+ 5 APPPATH\Controllers\Contato.php(35): view('/Contato/painel.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Contato->salvar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contato))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 22:42:50 --> view(): Argument #2 ($data) must be of type array, App\Models\FormModel given, called in C:\wamp64\www\APP_CODE4\app\Controllers\Contato.php on line 35
+in SYSTEMPATH\Common.php on line 1164.
+ 1 APPPATH\Controllers\Contato.php(35): view('/Contato/painel.php', Object(App\Models\FormModel))
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Contato->salvar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contato))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 22:43:35 --> Undefined variable $data
+in APPPATH\Views\Contato\painel.php on line 3.
+ 1 APPPATH\Views\Contato\painel.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\wamp64\\www\\APP_CODE4\\app\\Views\\Contato\\painel.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\APP_CODE4\\app\\Views\\Contato\\painel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Contato/painel.php', [], true)
+ 5 APPPATH\Controllers\Contato.php(35): view('/Contato/painel.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Contato->salvar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contato))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 22:47:30 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #2 ($code) must be of type ?int, array given, called in C:\wamp64\www\APP_CODE4\app\Controllers\Contato.php on line 34
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 32.
+ 1 APPPATH\Controllers\Contato.php(34): CodeIgniter\HTTP\RedirectResponse->to('/contato/painel', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Contato->salvar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contato))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 22:48:37 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #2 ($code) must be of type ?int, App\Models\FormModel given, called in C:\wamp64\www\APP_CODE4\app\Controllers\Contato.php on line 34
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 32.
+ 1 APPPATH\Controllers\Contato.php(34): CodeIgniter\HTTP\RedirectResponse->to('/contato/painel', Object(App\Models\FormModel))
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Contato->salvar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contato))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 22:50:59 --> Undefined variable $data
+in APPPATH\Views\Contato\painel.php on line 3.
+ 1 APPPATH\Views\Contato\painel.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\wamp64\\www\\APP_CODE4\\app\\Views\\Contato\\painel.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\APP_CODE4\\app\\Views\\Contato\\painel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Contato/painel.php', [], true)
+ 5 APPPATH\Controllers\Contato.php(45): view('/Contato/painel.php', [...])
+ 6 APPPATH\Controllers\Contato.php(34): App\Controllers\Contato->painel([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Contato->salvar()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contato))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 22:51:25 --> view(): Argument #2 ($data) must be of type array, App\Models\FormModel given, called in C:\wamp64\www\APP_CODE4\app\Controllers\Contato.php on line 45
+in SYSTEMPATH\Common.php on line 1164.
+ 1 APPPATH\Controllers\Contato.php(45): view('/Contato/painel.php', Object(App\Models\FormModel))
+ 2 APPPATH\Controllers\Contato.php(34): App\Controllers\Contato->painel(Object(App\Models\FormModel))
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Contato->salvar()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contato))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 22:55:55 --> Undefined variable $data_form
+in APPPATH\Views\Contato\painel.php on line 8.
+ 1 APPPATH\Views\Contato\painel.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_form', 'C:\\wamp64\\www\\APP_CODE4\\app\\Views\\Contato\\painel.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\APP_CODE4\\app\\Views\\Contato\\painel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Contato/painel.php', [], true)
+ 5 APPPATH\Controllers\Contato.php(46): view('/Contato/painel.php', [...])
+ 6 APPPATH\Controllers\Contato.php(35): App\Controllers\Contato->painel([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Contato->salvar()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contato))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 22:56:18 --> Undefined variable $data_form
+in APPPATH\Views\Contato\painel.php on line 8.
+ 1 APPPATH\Views\Contato\painel.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_form', 'C:\\wamp64\\www\\APP_CODE4\\app\\Views\\Contato\\painel.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\APP_CODE4\\app\\Views\\Contato\\painel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Contato/painel.php', [], true)
+ 5 APPPATH\Controllers\Contato.php(46): view('/Contato/painel.php', [...])
+ 6 APPPATH\Controllers\Contato.php(35): App\Controllers\Contato->painel([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Contato->salvar()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contato))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 22:58:53 --> Undefined variable $data_form
+in APPPATH\Views\Contato\painel.php on line 7.
+ 1 APPPATH\Views\Contato\painel.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_form', 'C:\\wamp64\\www\\APP_CODE4\\app\\Views\\Contato\\painel.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\APP_CODE4\\app\\Views\\Contato\\painel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Contato/painel.php', [], true)
+ 5 APPPATH\Controllers\Contato.php(46): view('/Contato/painel.php', [...])
+ 6 APPPATH\Controllers\Contato.php(35): App\Controllers\Contato->painel([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Contato->salvar()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contato))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 23:02:39 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\APP_CODE4\app\Controllers\Contato.php on line 46
+in SYSTEMPATH\Common.php on line 1164.
+ 1 APPPATH\Controllers\Contato.php(46): view('/Contato/painel.php', 'Emanoel Spanhol')
+ 2 APPPATH\Controllers\Contato.php(35): App\Controllers\Contato->painel([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Contato->salvar()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contato))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 23:03:55 --> Call to a member function this() on string
+in APPPATH\Controllers\Contato.php on line 45.
+ 1 APPPATH\Controllers\Contato.php(35): App\Controllers\Contato->painel([...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Contato->salvar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contato))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 23:04:28 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\APP_CODE4\app\Controllers\Contato.php on line 47
+in SYSTEMPATH\Common.php on line 1164.
+ 1 APPPATH\Controllers\Contato.php(47): view('/Contato/painel.php', 'Emanoel Spanhol')
+ 2 APPPATH\Controllers\Contato.php(35): App\Controllers\Contato->painel([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Contato->salvar()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contato))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 23:05:33 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\APP_CODE4\app\Controllers\Contato.php on line 47
+in SYSTEMPATH\Common.php on line 1164.
+ 1 APPPATH\Controllers\Contato.php(47): view('/Contato/painel.php', 'Victória de oliveira silva')
+ 2 APPPATH\Controllers\Contato.php(35): App\Controllers\Contato->painel([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Contato->salvar()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contato))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 23:06:24 --> Undefined variable $data_form
+in APPPATH\Views\Contato\painel.php on line 7.
+ 1 APPPATH\Views\Contato\painel.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_form', 'C:\\wamp64\\www\\APP_CODE4\\app\\Views\\Contato\\painel.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\APP_CODE4\\app\\Views\\Contato\\painel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Contato/painel.php', [], true)
+ 5 APPPATH\Controllers\Contato.php(47): view('/Contato/painel.php')
+ 6 APPPATH\Controllers\Contato.php(35): App\Controllers\Contato->painel([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Contato->salvar()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contato))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 23:07:31 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\APP_CODE4\app\Controllers\Contato.php on line 47
+in SYSTEMPATH\Common.php on line 1164.
+ 1 APPPATH\Controllers\Contato.php(47): view('/Contato/painel.php', 'teste')
+ 2 APPPATH\Controllers\Contato.php(35): App\Controllers\Contato->painel([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Contato->salvar()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contato))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 23:08:38 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\APP_CODE4\app\Controllers\Contato.php on line 47
+in SYSTEMPATH\Common.php on line 1164.
+ 1 APPPATH\Controllers\Contato.php(47): view('/Contato/painel.php', 'teste')
+ 2 APPPATH\Controllers\Contato.php(35): App\Controllers\Contato->painel([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Contato->salvar()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contato))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 23:08:42 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\APP_CODE4\app\Controllers\Contato.php on line 47
+in SYSTEMPATH\Common.php on line 1164.
+ 1 APPPATH\Controllers\Contato.php(47): view('/Contato/painel.php', 'teste')
+ 2 APPPATH\Controllers\Contato.php(35): App\Controllers\Contato->painel([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Contato->salvar()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contato))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 23:08:53 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\APP_CODE4\app\Controllers\Contato.php on line 47
+in SYSTEMPATH\Common.php on line 1164.
+ 1 APPPATH\Controllers\Contato.php(47): view('/Contato/painel.php', 'teste')
+ 2 APPPATH\Controllers\Contato.php(35): App\Controllers\Contato->painel([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Contato->salvar()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contato))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 23:09:31 --> Undefined variable $nome
+in APPPATH\Views\Contato\painel.php on line 7.
+ 1 APPPATH\Views\Contato\painel.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nome', 'C:\\wamp64\\www\\APP_CODE4\\app\\Views\\Contato\\painel.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\APP_CODE4\\app\\Views\\Contato\\painel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Contato/painel.php', [], true)
+ 5 APPPATH\Controllers\Contato.php(47): view('/Contato/painel.php')
+ 6 APPPATH\Controllers\Contato.php(35): App\Controllers\Contato->painel([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Contato->salvar()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contato))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 23:11:24 --> Undefined variable $data_form
+in APPPATH\Views\Contato\painel.php on line 1.
+ 1 APPPATH\Views\Contato\painel.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_form', 'C:\\wamp64\\www\\APP_CODE4\\app\\Views\\Contato\\painel.php', 1)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\APP_CODE4\\app\\Views\\Contato\\painel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Contato/painel.php', [], true)
+ 5 APPPATH\Controllers\Contato.php(47): view('/Contato/painel.php', [...])
+ 6 APPPATH\Controllers\Contato.php(35): App\Controllers\Contato->painel([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Contato->salvar()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contato))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 23:11:29 --> Too few arguments to function App\Controllers\Contato::painel(), 0 passed in C:\wamp64\www\APP_CODE4\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\Contato.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Contato->painel()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contato))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 23:15:23 --> Class "App\Controllers\Mensagem" not found
+in APPPATH\Controllers\Contato.php on line 45.
+ 1 APPPATH\Controllers\Contato.php(35): App\Controllers\Contato->painel([...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Contato->salvar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contato))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 23:15:45 --> Call to undefined method App\Controllers\Contato::all()
+in APPPATH\Controllers\Contato.php on line 45.
+ 1 APPPATH\Controllers\Contato.php(35): App\Controllers\Contato->painel([...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Contato->salvar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contato))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 23:17:25 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\wamp64\www\APP_CODE4\app\Controllers\Contato.php on line 48
+in SYSTEMPATH\Common.php on line 1164.
+ 1 APPPATH\Controllers\Contato.php(48): view('/Contato/painel.php', 'Emanoel Spanhol')
+ 2 APPPATH\Controllers\Contato.php(35): App\Controllers\Contato->painel([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Contato->salvar()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contato))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 23:19:57 --> Undefined variable $cliente
+in APPPATH\Controllers\Contato.php on line 47.
+ 1 APPPATH\Controllers\Contato.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cliente', 'C:\\wamp64\\www\\APP_CODE4\\app\\Controllers\\Contato.php', 47)
+ 2 APPPATH\Controllers\Contato.php(35): App\Controllers\Contato->painel([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Contato->salvar()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contato))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-17 23:23:28 --> Too few arguments to function App\Controllers\Contato::painel(), 0 passed in C:\wamp64\www\APP_CODE4\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\Contato.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Contato->painel()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contato))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
